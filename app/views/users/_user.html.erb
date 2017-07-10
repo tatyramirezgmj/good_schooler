@@ -1,0 +1,5 @@
+ <!-- <div id="<%= user.id %>" class="user"> -->
+<%= content_tag_for(:div, user) do %>
+  <%= user.name %>
+<% end %>
+ <!-- </div> -->

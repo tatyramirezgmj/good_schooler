@@ -1,6 +1,19 @@
 <h1>Hello Users!</h1>
-<%= render 'users' %>
 
- <h5> <%= Time.now %> </h5>
- <!-- html comment -->
-<%# hello world erb comment %>
+<%= render @users %>
+
+
+
+<!-- <%= render @user , user: @user   %> -->
+<!-- <div id="user">
+</div>
+<script>
+ var userRoot = document.getElementById('user');
+ var userComponent = new User({user:{name: "<%= @user.name %>"}});
+ /// <User user ="{name:'Ed'}""></User>
+ ReactDOM.render(userComponent.render(),userRoot)
+</script> -->
+<!--
+<img src="/assets/golden_girls.jpeg" alt="Golden Girls">
+
+<%= image_tag 'golden_girls.jpeg' %> -->

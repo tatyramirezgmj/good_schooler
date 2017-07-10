@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+
+ /* target all elements on the page that represents intances of class User */
+.user {
+  color:red;
+}
+
+ /* target all elements on the page that represents intances of id User */
+#user_1 {
+  font-size: 40px;
+}
